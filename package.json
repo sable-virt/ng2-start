@@ -1,0 +1,30 @@
+{
+  "name": "ng2-start",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app/main.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "$(npm bin)/typings install",
+    "build": "$(npm bin)/webpack",
+    "watch": "$(npm bin)/webpack-dev-server",
+    "production": "$(npm bin)/webpack -p"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "angular2": "^2.0.0-beta.15",
+    "es6-shim": "^0.35.0",
+    "reflect-metadata": "^0.1.2",
+    "rxjs": "^5.0.0-beta.2",
+    "zone.js": "^0.6.12"
+  },
+  "devDependencies": {
+    "ts-loader": "^0.8.2",
+    "typescript": "^1.8.10",
+    "typings": "^0.8.1",
+    "webpack": "^1.13.0",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "private": true
+}
