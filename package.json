@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "postinstall": "$(npm bin)/typings install",
+    "start": "npm run watch",
     "build": "$(npm bin)/webpack",
     "watch": "$(npm bin)/webpack-dev-server",
     "production": "$(npm bin)/webpack -p"
