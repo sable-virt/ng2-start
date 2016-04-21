@@ -1,7 +1,7 @@
 {
   "name": "ng2-start",
   "version": "1.0.0",
-  "description": "",
+  "description": "Easy Angular2 Starter Kit",
   "main": "app/main.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,7 +11,7 @@
     "watch": "$(npm bin)/webpack-dev-server",
     "production": "$(npm bin)/webpack -p"
   },
-  "author": "",
+  "author": "frontainer",
   "license": "MIT",
   "dependencies": {
     "angular2": "^2.0.0-beta.15",
@@ -27,5 +27,9 @@
     "webpack": "^1.13.0",
     "webpack-dev-server": "^1.14.1"
   },
-  "private": true
+  "private": true,
+  "repository":{
+    "type": "git",
+    "url": "https://github.com/frontainer/ng2-start"
+  }
 }
