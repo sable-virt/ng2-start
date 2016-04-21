@@ -1,5 +1,5 @@
 import {Component} from 'angular2/core';
-import { RouteConfig, ROUTER_DIRECTIVES, ROUTER_PROVIDERS } from 'angular2/router';
+import {RouteConfig,ROUTER_DIRECTIVES,ROUTER_PROVIDERS } from 'angular2/router';
 import {PageTop} from './page-top';
 import {PageNext} from './page-next';
 /*
@@ -13,7 +13,15 @@ import {PageNext} from './page-next';
     template: `
         <h1>{{title}}</h1>
         <router-outlet></router-outlet>
-    `
+    `,
+    styles: [
+        `
+            h1 { 
+                font-weight: normal; 
+                color: #009926;
+            }
+        `
+    ],
 })
 @RouteConfig([
     {
