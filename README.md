@@ -17,10 +17,8 @@ npm i
 ## 開発開始
 
 ```
-npm run watch
+npm start
 ```
-
-`http://localhost:8080` にアクセスする
 
 ## 本番用ファイル作成
 
